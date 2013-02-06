@@ -27,6 +27,7 @@ todomvc.controller( 'TodoCtrl', function TodoCtrl( $scope, $location, todoStorag
         { completed: true } : null;
   });
 
+
   $scope.addTodo = function() {
     if ( !$scope.newTodo.length ) {
       return;
