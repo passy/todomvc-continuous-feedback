@@ -4,10 +4,11 @@ node_js:
 - 0.8
 after_success:
 - echo "Deploying build $TRAVIS_BUILD_NUMBER to $TRAVIS_BRANCH-javascript-webapp-best-practice.cloudfoundry.com"
-- gem install vmc
-- vmc target https://api.cloudfoundry.com
-- vmc login david@davidlaing.com --password $CF_PASSWD
-- vmc apps
+- echo CF_PASSWD is $CF_PASSWD
+- #gem install vmc
+- #vmc target https://api.cloudfoundry.com
+- #vmc login david@davidlaing.com --password $CF_PASSWD
+- #vmc apps
 env:
   global:
   - secure: ! 'nH8iRxNrfZYXOzfKOrdN4WFolme22jfvKn7GR5eeLKEVfrRfLKU2HXdOI9S2
