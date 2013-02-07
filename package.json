@@ -1,7 +1,12 @@
 {
-  "author": "",
-  "name": "",
-  "version": "0.0.0",
+  "author": "David Laing",
+  "name": "javascript-webapp-best-practice",
+  "version": "0.0.1",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+	  "yeoman": "~0.9.5"
+	},
+	"scripts": {
+	  "test": "node_modules/.bin/yeoman test --verbose"
+	}
 }
