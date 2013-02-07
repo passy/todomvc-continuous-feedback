@@ -5,7 +5,7 @@ An example using:
 
 1. AngularJS
 1. Yeoman.io
-1. Travis-CI
+1. Travis-CI [![Build Status](https://travis-ci.org/cityindex/javascript-webapp-best-practice.png)](https://travis-ci.org/cityindex/javascript-webapp-best-practice)
 1. BrowserStack
 
 ### Getting started
