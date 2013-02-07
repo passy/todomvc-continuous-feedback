@@ -174,4 +174,19 @@ module.exports = function( grunt ) {
       done(err);
     });
   });
+
+  // The `test-end2end` task to run `testacular` with end2end tests instead
+  grunt.registerTask('test:end2end', 'run the testacular test driver for end2end scenario tests', function () {
+    
+    grunt.log.writeln('Running end to end tests against http://localhost:3501');
+    grunt.log.writeln('NB! Make sure the app is running on that port!');
+    
+    var done = this.async();
+    require('child_process').exec('testacular start testacular.end2end.conf.js', function (err, stdout) {
+      grunt.log.write(stdout);
+      done(err);
+    });
+  });
+
+  
 };

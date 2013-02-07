@@ -12,15 +12,21 @@ An example using:
 
 #### Local development pre-requisits
 
-1. `$ sudo npm install yeoman`
-1. `$ sudo npm install testacular`
+1. `$ sudo npm install yeoman -g `
+1. `$ sudo npm install testacular -g `
 
-##### Running tests from a terminal
+##### Run unit tests from a terminal
 
 1. `$ cd /path/to/javascript-webapp-best-practice`
-1. `javascript-webapp-best-practice $ testacular`
+1. `javascript-webapp-best-practice $ yeoman test`
 
 ##### Launching a dev server from a terminal
 
 1. `$ cd /path/to/javascript-webapp-best-practice`
 1. `javascript-webapp-best-practice $ yeoman server`
+
+##### Run end to end tests from a terminal
+_NB You must already be running a dev server in a different terminal_
+
+1. `$ cd /path/to/javascript-webapp-best-practice`
+1. `javascript-webapp-best-practice $ yeoman test:end2end`
