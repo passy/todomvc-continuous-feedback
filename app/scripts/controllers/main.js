@@ -1,9 +1,9 @@
 'use strict';
 
-todomvc.controller('MainCtrl', function($scope) {
+todomvc.controller('MainCtrl', ['$scope', function($scope) {
   $scope.awesomeThings = [
     'HTML5 Boilerplate',
     'AngularJS',
     'Testacular'
   ];
-});
+}]);
