@@ -1,4 +1,8 @@
 language: node_js
 node_js:
   - 0.8
-  
+after_success:
+  - echo "Deploying build $TRAVIS_BUILD_NUMBER to $TRAVIS_BRANCH-javascript-webapp-best-practice.cloudfoundry.com"
+  - gem install vmc
+  - vmc target https://api.cloudfoundry.com
+  - vmc login david@davidlaing.com --password <encrypted_password_here> 
