@@ -1,0 +1,7 @@
+app/
+temp/
+test/
+
+testacular.conf.js
+README.md
+Gruntfiles.js
