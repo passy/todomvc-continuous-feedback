@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
-	  "yeoman": "~0.9.5"
+	  "yeoman": "~0.9.5",
+	  "testacular":"~0.4.0"
 	},
 	"scripts": {
 	  "test": "node_modules/.bin/yeoman test --verbose"
