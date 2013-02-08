@@ -1,6 +1,6 @@
 {
   "author": "David Laing",
-  "name": "javascript-webapp-best-practice",
+  "name": "todomvc-continuous-feedback",
   "version": "0.0.1",
   "dependencies": {
   	"connect": "~2.7.2"

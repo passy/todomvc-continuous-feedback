@@ -5,7 +5,7 @@ An example using:
 
 1. AngularJS
 1. Yeoman.io
-1. Travis-CI [![Build Status](https://travis-ci.org/cityindex/todomvc-continuous-feedback.png)](https://travis-ci.org/cityindex/todomvc-continuous-feedback)
+1. [Jenkins](http://ci.labs.cityindex.com:8080/job/todomvc-continuous-feedback==angularjs-yeoman-jenkins-browserstack)
 1. BrowserStack
 
 ### Getting started
