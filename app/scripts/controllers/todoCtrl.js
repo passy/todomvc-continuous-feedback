@@ -61,6 +61,9 @@ todomvc.controller( 'TodoCtrl',
     todos.splice(todos.indexOf(todo), 1);
   };
 
+  $scope.removeAllTodos = function() {
+    $scope.todos = todos = [];
+  };
 
   $scope.clearDoneTodos = function() {
     $scope.todos = todos = todos.filter(function( val ) {
