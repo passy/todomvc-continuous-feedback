@@ -25,6 +25,11 @@ An example using:
 1. `$ cd /path/to/javascript-webapp-best-practice`
 1. `javascript-webapp-best-practice $ yeoman server`
 
+##### Launching a dev server to execute tests manually in a browser
+
+1. `$ cd /path/to/javascript-webapp-best-practice`
+1. `javascript-webapp-best-practice $ yeoman server:test`
+
 ##### Run end to end tests from a terminal
 _NB You must already be running a dev server in a different terminal_
 
