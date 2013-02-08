@@ -5,7 +5,7 @@ An example using:
 
 1. AngularJS
 1. Yeoman.io
-1. Travis-CI [![Build Status](https://travis-ci.org/cityindex/javascript-webapp-best-practice.png)](https://travis-ci.org/cityindex/javascript-webapp-best-practice)
+1. Travis-CI [![Build Status](https://travis-ci.org/cityindex/todomvc-continuous-feedback.png)](https://travis-ci.org/cityindex/todomvc-continuous-feedback)
 1. BrowserStack
 
 ### Getting started
@@ -17,21 +17,21 @@ An example using:
 
 ##### Run unit tests from a terminal
 
-1. `$ cd /path/to/javascript-webapp-best-practice`
-1. `javascript-webapp-best-practice $ yeoman test`
+1. `$ cd /path/to/todomvc-continuous-feedback`
+1. `todomvc-continuous-feedback $ yeoman test`
 
 ##### Launching a dev server from a terminal
 
-1. `$ cd /path/to/javascript-webapp-best-practice`
-1. `javascript-webapp-best-practice $ yeoman server`
+1. `$ cd /path/to/todomvc-continuous-feedback`
+1. `todomvc-continuous-feedback $ yeoman server`
 
 ##### Launching a dev server to execute tests manually in a browser
 
-1. `$ cd /path/to/javascript-webapp-best-practice`
-1. `javascript-webapp-best-practice $ yeoman server:test`
+1. `$ cd /path/to/todomvc-continuous-feedback`
+1. `todomvc-continuous-feedback $ yeoman server:test`
 
 ##### Run end to end tests from a terminal
 _NB You must already be running a dev server in a different terminal_
 
-1. `$ cd /path/to/javascript-webapp-best-practice`
-1. `javascript-webapp-best-practice $ yeoman test:end2end`
+1. `$ cd /path/to/todomvc-continuous-feedback`
+1. `todomvc-continuous-feedback $ yeoman test:end2end`
