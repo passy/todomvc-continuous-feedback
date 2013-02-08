@@ -1,14 +1,13 @@
----
 language: node_js
 node_js:
-- 0.8
+  - 0.8
 env:
-  global:
-  - secure: "BR6viSGpaMrKfwMnsqXCbbe0UWrFifTLfZLbvqUA3UiMyg6G6QeS9SPzfnQB\n4x3MftqO3KvXknqwUhk+OgetcXrIYTR0TEMqUnjTWXq4CU+eUIoR89PfiE/+\nQz8EtRXqdnYzD0+4Ed7sgNg/5Ex6QwcJtPXtHWvvGL2528kJ3a4="
+  - global:
+    - secure: "BR6viSGpaMrKfwMnsqXCbbe0UWrFifTLfZLbvqUA3UiMyg6G6QeS9SPzfnQB\n4x3MftqO3KvXknqwUhk+OgetcXrIYTR0TEMqUnjTWXq4CU+eUIoR89PfiE/+\nQz8EtRXqdnYzD0+4Ed7sgNg/5Ex6QwcJtPXtHWvvGL2528kJ3a4="
 after_success:
-- echo "Deploying build $TRAVIS_BUILD_NUMBER to $TRAVIS_BRANCH.cloudfoundry.com"
-- echo "TRAVIS_SECURE_ENV_VARS: $TRAVIS_SECURE_ENV_VARS TRAVIS_PULL_REQUEST: $TRAVIS_PULL_REQUEST"
-- gem install vmc
-- vmc target https://api.cloudfoundry.com
-- vmc login david@davidlaing.com --password $CF_PASSWD
-- vmc push $TRAVIS_BRANCH --url $TRAVIS_BRANCH.cloudfoundry.com --framework node --runtime node08 --memory 64M --instances 1 --path . --no-create-services --no-bind-services
+  - echo "Deploying build $TRAVIS_BUILD_NUMBER to $TRAVIS_BRANCH.cloudfoundry.com"
+  - echo "TRAVIS_SECURE_ENV_VARS:$TRAVIS_SECURE_ENV_VARS TRAVIS_PULL_REQUEST:$TRAVIS_PULL_REQUEST"
+  - gem install vmc
+  - vmc target https://api.cloudfoundry.com
+  - vmc login david@davidlaing.com --password $CF_PASSWD
+  - vmc push $TRAVIS_BRANCH --url $TRAVIS_BRANCH.cloudfoundry.com --framework node --runtime node08 --memory 64M --instances 1 --path . --no-create-services --no-bind-services
