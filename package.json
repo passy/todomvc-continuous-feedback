@@ -7,7 +7,7 @@
   },
   "devDependencies": {
 	  "yeoman": "~0.9.5",
-	  "testacular":"~0.4.0"
+	  "testacular":"~0.5.9"
 	},
 	"scripts": {
 		"start": "node http-server.js",
