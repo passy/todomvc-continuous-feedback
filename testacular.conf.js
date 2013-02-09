@@ -26,7 +26,10 @@ exclude = [
 
 // test results reporter to use
 // possible values: dots || progress
-reporter = 'progress';
+reporters = ['dots', 'coverage', 'junit'];
+junitReporter = {
+	outputFile: 'test-results.xml'
+};
 
 
 // web server port
