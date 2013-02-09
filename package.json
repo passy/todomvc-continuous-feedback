@@ -8,6 +8,6 @@
   "devDependencies": {},
 	"scripts": {
 		"start": "node http-server.js",
-	  "test": "node_modules/.bin/yeoman build && node_modules/.bin/yeoman test --verbose"
+	  "test": "yeoman build && yeoman test --verbose"
 	}
 }
