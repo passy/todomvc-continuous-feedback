@@ -31,6 +31,14 @@ junitReporter = {
 	outputFile: 'test-results.xml'
 };
 
+preprocessors = {
+  'app/scripts/**/*.js': 'coverage'
+};
+
+coverageReporter = {
+  type : 'cobertura',
+  dir : 'coverage/'
+}
 
 // web server port
 port = 8080;
