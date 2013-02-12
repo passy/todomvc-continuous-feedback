@@ -21,8 +21,8 @@ So, Welcome!  We hope you find some new ideas here that help make your WebApp mo
 
 Read the following theory to get some context:
 
-1. [Components of a complete build process](https://github.com/cityindex/todomvc-continuous-feedback/theory/components.md)
-1. [Tour of complete system in action - releasing a new feature](https://github.com/cityindex/todomvc-continuous-feedback/theory/tour.md)
+1. [Components of a complete build process](https://github.com/cityindex/todomvc-continuous-feedback/blob/master/theory/components.md)
+1. [Tour of complete system in action - releasing a new feature](https://github.com/cityindex/todomvc-continuous-feedback/blob/master/theory/tour.md)
 
 Now browse through the starter kits to see a collection of tools and techniques working together
 
