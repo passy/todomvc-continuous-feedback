@@ -1,0 +1,6 @@
+TodoMVC Continuous Feedback
+Copyright 2013 CityIndex Ltd.
+
+This product includes software developed at
+	CityIndex Ltd. (http://www.cityindex.com)
+

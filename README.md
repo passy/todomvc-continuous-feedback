@@ -36,3 +36,7 @@ This project welcomes contribution and discussion around what constitutes best p
 Browse through our issue list to get an idea what's coming up the Roadmap.
 
 Join our weekly Google Hangout (or watch the archives).
+
+### License
+
+This guide and associated materials are opensource and licensed to you under the [Apache v2 license](https://github.com/cityindex/todomvc-continuous-feedback/blob/master/LICENSE.txt)
