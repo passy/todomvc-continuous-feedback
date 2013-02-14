@@ -55,6 +55,18 @@ describe('TodoMVC', function() {
 
     });
 
+    it( 'should increment the done count displayed when marking a todo complete' , function() {
+
+      input('newTodo').enter('Test todo 1');
+      element('#new-todo-submit').click();
+
+      //Mark the item as completed
+      element('#todo-list li:last-child .toggle').click();
+
+      expect(binding("doneCount")).toEqual("1");
+
+    });
+
     it( 'should allow clearing completed todos' , function() {
      
       input('newTodo').enter('Test todo 1');
