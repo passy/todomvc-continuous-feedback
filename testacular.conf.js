@@ -23,16 +23,17 @@ exclude = [
   
 ];
 
-
-// test results reporter to use
-// possible values: dots || progress
+// test results reporters to use
 reporters = ['dots', 'coverage', 'junit'];
 junitReporter = {
 	outputFile: 'test/test-results.xml'
 };
 
 preprocessors = {
-  'app/scripts/**/*.js': 'coverage'
+  '**/scripts/*.js': 'coverage',
+  '**/scripts/controllers/*.js': 'coverage',
+  '**/scripts/directives/*.js': 'coverage',
+  '**/scripts/services/*.js': 'coverage'
 };
 
 coverageReporter = {
