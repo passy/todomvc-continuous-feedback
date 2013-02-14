@@ -28,7 +28,7 @@ exclude = [
 // possible values: dots || progress
 reporters = ['dots', 'coverage', 'junit'];
 junitReporter = {
-	outputFile: 'test-results.xml'
+	outputFile: 'test/test-results.xml'
 };
 
 preprocessors = {
