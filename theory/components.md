@@ -7,13 +7,14 @@ The following components are typically found in a continuous feedback system:
 1. Developer workstations 
 ```
     a. Text editor
-    b. Local working copy source code repository
-    c. Watcher process
-    d. Build script
-    e. Local HTTP server
-    f. Test runner
-    g. Set of browsers open for manual inspection
-    h. Set of browsers slaved to test runner (f)
+    b. Scaffolding tool
+    c. Local working copy source code repository
+    d. Watcher process
+    e. Build script
+    f. Local HTTP server
+    g. Test runner
+    h. Set of browsers open for manual inspection
+    i. Set of browsers slaved to test runner (f)
 ```
 
 2. Source code repository
