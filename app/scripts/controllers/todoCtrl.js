@@ -16,7 +16,6 @@ todomvc.controller( 'TodoCtrl',
 
   $scope.$watch('todos', function() {
     $scope.remainingCount = filterFilter(todos, {completed: false}).length;
-    $scope.doneCount = todos.length - $scope.remainingCount;
     $scope.allChecked = !$scope.remainingCount
     todoStorage.put(todos);
   }, true);

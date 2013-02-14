@@ -100,8 +100,12 @@
       it('should count Todos correctly', function () {
         expect(scope.todos.length).toBe(5);
         expect(scope.remainingCount).toBe(3);
-        expect(scope.doneCount).toBe(2);
+
         expect(scope.allChecked).toBeFalsy();
+      });
+
+      it('should calculate done Todos correctly', function () {
+         expect(scope.doneCount).toBe(2);
       });
 
       it('should save Todos to local storage', function () {
@@ -124,7 +128,7 @@
       it('markAll() should mark all Todos completed', function () {
         scope.markAll();
         scope.$digest();
-        expect(scope.doneCount).toBe(5);
+        expect(scope.remainingCount).toBe(0);
       });
     });
   });
