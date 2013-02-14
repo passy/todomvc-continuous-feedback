@@ -353,6 +353,11 @@ label[for='toggle-all'] {
 	text-align: left;
 }
 
+#done-count {
+	float: left;
+	text-align: left;
+}
+
 #filters {
 	margin: 0;
 	padding: 0;
