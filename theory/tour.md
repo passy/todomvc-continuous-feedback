@@ -1,13 +1,20 @@
 # Tour of adding a feature
 _showing how continuous feedback helps make the process more productive and fun_
 
+Watch the whole tour below (20min), or scroll down to the section that most interests you:
+
 [![Introduction](https://f.cloud.github.com/assets/227505/160509/957e53c2-7766-11e2-9e02-5f1a34e66453.png)](http://www.youtube.com/watch?feature=player_detailpage&v=CIZ8OeXrvSY#t=0s)
+
+  * Introducing the context and how all the pieces fit together
 
 ### Step 1: Write a failing test
 
 ([Jump to this section of the tour](http://www.youtube.com/watch?feature=player_detailpage&v=CIZ8OeXrvSY#t=128s))
 
 [![Step 1: Write a failing test9](https://f.cloud.github.com/assets/227505/160512/b89e1db0-7766-11e2-9e0b-bfcd95e2c27a.png)](http://www.youtube.com/watch?feature=player_detailpage&v=CIZ8OeXrvSY#t=128s)
+
+  * Using the Jasmine unit test framework
+  * Using Yeoman.io / Testacular command line test runner
 
 ### Step 2: Making the test pass
 
