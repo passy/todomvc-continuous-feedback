@@ -20,7 +20,4 @@ describe('Controller: MainCtrl', function() {
     expect(scope.awesomeThings.length).toBe(3);
   });
 
-  it('should fail not deploy on test failure', function() {
-    expect(1).toBe(2);
-  });
 });
