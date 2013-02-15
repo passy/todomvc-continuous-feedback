@@ -31,11 +31,13 @@ Now browse through the starter kits to see a collection of tools and techniques 
 
 ### Getting involved
 
-This project welcomes contribution and discussion around what constitutes best practice.    If you have something to add, or a better way of doing one of the steps, submitting a pull request is the way to grab the project maintainers' attention.
+This project welcomes contribution and discussion around what constitutes best practice.    
+If you have something to add, or a better way of doing one of the steps, submitting a pull request is 
+the way to grab the project maintainers' attention.
 
 Browse through our issue list to get an idea what's coming up the Roadmap.
 
-Join our weekly Google Hangout (or watch the archives).
+[Join the mailing list](https://groups.google.com/forum/?fromgroups#!forum/todomvc-continuous-feedback)
 
 ### License
 
