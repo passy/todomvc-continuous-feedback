@@ -1,0 +1,9 @@
+---
+applications:
+- name: angularjs-yeoman-jenkins-browserstack
+  framework: node
+  runtime: node08
+  memory: 64M
+  instances: 1
+  url: angularjs-yeoman-jenkins-browserstack.${target-base}
+  path: .
