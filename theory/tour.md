@@ -1,13 +1,13 @@
 # Tour of adding a feature
 _showing how continuous feedback helps make the process more productive and fun_
 
-[![Introduction](https://f.cloud.github.com/assets/227505/160213/bb8e16e8-775b-11e2-9611-50fcab1cb693.png)](http://www.youtube.com/watch?feature=player_detailpage&v=CIZ8OeXrvSY#t=0s)
+[![Introduction](https://f.cloud.github.com/assets/227505/160509/957e53c2-7766-11e2-9e02-5f1a34e66453.png)](http://www.youtube.com/watch?feature=player_detailpage&v=CIZ8OeXrvSY#t=0s)
 
 ### Step 1: Write a failing test
 
 ([Jump to this section of the tour](http://www.youtube.com/watch?feature=player_detailpage&v=CIZ8OeXrvSY#t=128s))
 
-[![Step 1: Write a failing test9](https://f.cloud.github.com/assets/227505/160212/bb859464-775b-11e2-921a-8598a9c38016.png)](http://www.youtube.com/watch?feature=player_detailpage&v=CIZ8OeXrvSY#t=128s)
+[![Step 1: Write a failing test9](https://f.cloud.github.com/assets/227505/160512/b89e1db0-7766-11e2-9e0b-bfcd95e2c27a.png)](http://www.youtube.com/watch?feature=player_detailpage&v=CIZ8OeXrvSY#t=128s)
 
 ### Step 2: Making the test pass
 
